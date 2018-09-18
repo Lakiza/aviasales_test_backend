@@ -13,7 +13,7 @@ class DashboardData:
 
         self._average['errors'] = self._calculateAverageOf('statistic.errors', self._data)
         self._average['zeroes'] = self._calculateAverageOf('statistic.zeroes', self._data)
-        self._average['timeouts'] = self._calculateAverageOf('statistic.timeout', self._data)
+        self._average['timeout'] = self._calculateAverageOf('statistic.timeout', self._data)
 
     def _parseDataByPeriods(self, data):
         _data = {
